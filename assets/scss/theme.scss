@@ -1,0 +1,60 @@
+@import "../vendor/bootstrap/scss/functions";
+@import "../vendor/bootstrap/scss/variables";
+@import "../vendor/bootstrap/scss/maps";
+@import "../vendor/bootstrap/scss/mixins";
+@import "../vendor/bootstrap/scss/utilities";
+
+$primary: #111c21;
+$secondary: #000000;
+$success: #13B66A;
+$info: #47C4DD;
+$warning: #E7CD7E;
+$danger: #EB5D6B;
+$light: #F8F6F6;
+$dark: #4B4B4B;
+
+$theme-colors: (primary: $primary,
+        secondary: $secondary,
+        success: $success,
+        info: $info,
+        warning: $warning,
+        danger: $danger,
+        light: $light,
+        dark: $dark);
+
+@each $state,
+$value in $theme-colors {
+  $alert-background: shift-color($value, $alert-bg-scale);
+  $alert-border: shift-color($value, $alert-border-scale);
+  $alert-color: shift-color($value, $alert-color-scale);
+  $btn-background: shift-color($value, $alert-bg-scale);
+  $alert-border: shift-color($value, $alert-border-scale);
+  $alert-color: shift-color($value, $alert-color-scale);
+  @if (contrast-ratio($alert-background, $alert-color) < $min-contrast-ratio) {
+    $alert-color: mix($value, color-contrast($alert-background), abs($alert-color-scale));
+  }
+  .alert-#{$state} {
+    @include alert-variant($alert-background, $alert-border, $alert-color);
+  }
+  .btn-#{$state} {
+    @include button-variant($value, $value);
+  }
+  .btn-outline-#{$state} {
+    @include button-outline-variant($value);
+  }
+}
+
+$utilities: ("color": (property: color,
+        class: text,
+        local-vars: ("text-opacity": 1),
+        values: $theme-colors),
+        "background-color": (property: background-color,
+                class: bg,
+                local-vars: ("bg-opacity": 1),
+                values: $theme-colors),
+        "border-color": (property: border-color,
+                class: border,
+                local-vars: ("border-opacity": 1),
+                values: $theme-colors),
+);
+@import "../vendor/bootstrap/scss/utilities/api";

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a61c45c1-4898-48db-8604-769f26d31d70" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LGWUNkCquDfq6nfrbdQqIcQ0ki" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a61c45c1-4898-48db-8604-769f26d31d70" name="Changes" comment="" />
+      <created>1675497916540</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675497916540</updated>
+      <workItem from="1675497917837" duration="16549000" />
+      <workItem from="1675573187910" duration="2636000" />
+      <workItem from="1675581446957" duration="14775000" />
+      <workItem from="1675832898093" duration="14461000" />
+      <workItem from="1675854840046" duration="7466000" />
+      <workItem from="1676093829577" duration="124000" />
+      <workItem from="1676179970529" duration="3079000" />
+      <workItem from="1676183957086" duration="1426000" />
+      <workItem from="1676273468919" duration="14327000" />
+      <workItem from="1676350797370" duration="1052000" />
+      <workItem from="1676351916183" duration="18662000" />
+      <workItem from="1676700641921" duration="13669000" />
+      <workItem from="1676781181378" duration="13008000" />
+      <workItem from="1676871352994" duration="10211000" />
+      <workItem from="1677044246317" duration="4090000" />
+      <workItem from="1677051256240" duration="1808000" />
+      <workItem from="1677058736537" duration="2015000" />
+      <workItem from="1677301912008" duration="10705000" />
+      <workItem from="1677399821264" duration="599000" />
+      <workItem from="1677402691275" duration="1817000" />
+      <workItem from="1677408736773" duration="5703000" />
+      <workItem from="1677478231322" duration="2591000" />
+      <workItem from="1677487676208" duration="621000" />
+      <workItem from="1677488817051" duration="5000" />
+      <workItem from="1677488882166" duration="1588000" />
+      <workItem from="1677563103345" duration="21595000" />
+      <workItem from="1677648461852" duration="18859000" />
+      <workItem from="1677908096583" duration="4716000" />
+      <workItem from="1678616901197" duration="690000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
